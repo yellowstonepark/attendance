@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="attendance.js"></script>
+    <script src="node_modules/party-js/party.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XNDQQEP7TX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XNDQQEP7TX');
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1 align="center">Attendance</h1>
+      </div>
+      <div class="tutorial">
+        <h2>This is the link to the tutorial: <a href="google_meet_or_zoom/home_page.html">https://attendance.alumni-liberum.com/google_meet_or_zoom/home_page.html</a></h2>
+      </div>
+      <div class="Instructions">
+        <h3>It has always been a struggle taking attendance on Zoom or a Google Meet. This process also takes a considerable amount of class time. This computer program has been produced to solve these issues.</h3>
+      </div>
+      <hr />
+      <br />
+</header>
+      <div>
+        <div class="studentEnrolled">
+          <fieldset>
+            <legend>Paste the Information of Students who Should be in Class</legend>
+            <label for="pplInClass">You can paste it from the Google Classroom section, "People". Each name should be placed on a separate line.</label>
+            <br />
+            <textarea id="pplInClass" style="width:45%; height:150px;" placeholder="students enrolled in the class"></textarea>
+            <br/>
+            <button type="button" name="8G1" onmousedown="party.element(this)" onclick="forMyClass()">Click to insert the names for 8G1</button>
+          </fieldset>
+        </div>
+
+        <div class="studentPresent">
+          <fieldset>
+            <legend>Highlight, copy and paste the participants in the Google Meet/Zoom Call. If you can't, click <a href="google_meet_or_zoom/home_page.html">here</a> for Instructions.</legend>
+            <label for="txtKids">Paste in the information in here:</label>
+            <br />
+            <textarea id="txtKids" style="width:45%; height:150px;" placeholder="paste from Google Meet or Zoom the participants"></textarea>
+          </fieldset>
+        </div>
+    <button onclick="attendance()" type="button" class="thebutton">Click to Run Attendance</button>
+</div>
+<div class="info">
+  <div class="present">
+      <h2>People in the class who are present:</h2>
+      <div id="whoIsPresent"></div>
+  </div>
+  <div class="absent">
+      <h2>People in the class who are absent:</h2>
+      <div id="whoIsAbsent"></div>
+  </div>
+</div>
+  </body>
+</html>

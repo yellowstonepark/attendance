@@ -1,0 +1,41 @@
+/**************************************************/
+.title {
+  font-size: 200%;
+}
+
+div {
+  white-space: normal;
+}
+
+fieldset {
+  height: auto;
+}
+
+legend {
+  font-style: oblique;
+  font-size: 150%;
+}
+ /*for the button*/
+.thebutton {
+  font-size: 150%;
+  font-style: bold;
+}
+
+/*CSS Elements*/
+
+/*For the body*/
+body {
+  background-color: whitesmoke;
+}
+
+/*For the title*/
+.title {
+  font-size: 150%;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-stretch: expanded;
+  font-variant: small-caps;
+  flex: auto;
+  padding: 50px;
+  border: 1px solid black;
+}

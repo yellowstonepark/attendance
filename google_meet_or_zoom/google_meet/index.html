@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Taking Attendance with Google Meet</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src="index.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XNDQQEP7TX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XNDQQEP7TX');
+    </script>
+  </head>
+  <body>
+    <div class="back">
+      <div onclick="back()">🔙</div>
+    </div>
+    <div class="title">
+      <h1>Taking Attendance with Google Meet</h1>
+    </div>
+    <hr/>
+    <div class="body">
+      <div class="difficulties">
+        <div class="subtitile">
+          <h2>The Difficulties</h2>
+        </div>
+        <div class="paragraph">
+          <p>Unfortunately, you cannot copy and paste participants in a
+          Google Meet. However, this is how the program works: the program
+          looks at the first textbox, and takes each line as a new classmate.
+          Then, it looks for each classmate in the second box. If the program
+          finds the name, it records the person as present. If the program does
+          not find the name, it records the person as absent. Therefore, it
+          does not matter how you have the name in the textbox.</p>
+          <p>There is a really good solution that you can use for Google Meets.
+          It is not super complicated, and is fairly simple, as long as you
+          follow the directions, as follows:</p>
+        </div>
+      </div>
+      <div class="solution">
+        <div class="subtitile">
+          <h2>The Solution</h2>
+        </div>
+        <div class="paragraph">
+          <p>It is advised to have a student do the attendance for you, and
+          just give them this tutorial.</p>
+          <p>Follow these steps:</p>
+          <ol>
+
+            <li>In the first textbox, you must paste the students in your
+            class.</li>
+
+            <ol>
+              <li>Go to Google Classroom</li>
+              <li>Pick your class</li>
+              <li>Click the word "People" at the top of the page</li>
+              <li>Highlight and copy all the students in the class</li>
+              <li>Paste it into the first textbox</li>
+              <p>***Note: Each name MUST be on a separte line or the program will not work.</p>
+            </ol>
+
+            <li>In the second textbox, you must paste the participants. In this case, we will paste the code into the second textbox. It will still work.</li>
+
+            <ol>
+              <li>Join the google meet regularly</li>
+              <li>Open up the participants tab at the top right (click the button)</li>
+              <li>Right click and click "Inspect"</li>
+              <li>Scroll all the way up to the second line in the code</li>
+              <li>Hover over this line of code <code>&lt;html lang="en" dir="ltr"&gt;</code> and click it</li>
+              <li>Right click the 3 buttons on the left of the line of code that pops up</li>
+              <li>Click "Copy" &gt; "Copy outerHTML"</li>
+              <p>***that copies it to your clipboard</p>
+              <li>Go to the attendance program, and paste into the second textbox.</li>
+            </ol>
+
+            <li>Now just click "Run Attendance"!</li>
+
+          </ol>
+
+          <p>Now that you have taken clicked the button, you will see at the
+          bottom a list of who is present and who is absent (each separated by " * ").</p>
+
+        </div>
+        <div class="enjoy">
+          <h4>Enjoy!</h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

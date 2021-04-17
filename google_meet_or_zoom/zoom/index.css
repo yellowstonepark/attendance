@@ -1,0 +1,35 @@
+/*CSS Elements*/
+
+/*For the body*/
+body {
+  background-color: whitesmoke;
+}
+
+/*For the back buttom*/
+.back {
+  font-size: 400%;
+  cursor: pointer;
+}
+
+/*For the title*/
+.title {
+  font-size: 150%;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-stretch: expanded;
+  font-variant: small-caps;
+  flex: auto;
+  padding: 50px;
+  border: 1px solid black;
+}
+ /*For everything but the title*/
+.body {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 110%;
+  font-style: oblique;
+  font-weight: lighter;
+  font-family: serif;
+  font-stretch: semi-expanded;
+  font-variant-caps: normal;
+}

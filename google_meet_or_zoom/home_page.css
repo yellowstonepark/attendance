@@ -1,0 +1,71 @@
+/*CSS Elements*/
+
+/*For the body*/
+body {
+  background-color: whitesmoke;
+}
+
+/*for the top of the page*/
+.top {
+  border: 1px solid black;
+}
+
+/*For the title*/
+.title {
+  font-size: 150%;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-stretch: expanded;
+  font-variant: small-caps;
+  flex: auto;
+  padding: 50px;
+}
+
+/*for both the buttons*/
+.body {
+  font-size: 256px;
+  font-style: oblique;
+  font-weight: 700;
+  font-family: monospace;
+  font-variant: normal;
+  font-kerning: normal;
+  font-feature-settings: normal;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+button {
+  display: auto;
+  border-radius: 15px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-size: 10%;
+  white-space: normal;
+  border-collapse: collapse;
+  border: 2px solid orangered;
+  transition-duration: 0.4s;
+}
+
+/*For the big GM button*/
+.gm {
+  float: left;
+}
+
+/*for the big Zoom button*/
+.zoom {
+  float: right;
+}
+
+.button:hover {
+  background-color: yellow;
+}
+
+/*For the back buttom*/
+.back {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-size: 300%;
+  cursor: pointer;
+}
